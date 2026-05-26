@@ -1,5 +1,5 @@
-# Assignment2 
-The README file contains the code and the steps to achieve the best score in assignment 2 - Stolen Model Detection.
+# Assignment 2 Stolen Model Detection.
+The folder contains the code and the steps to achieve the best score in assignment 2 - Stolen Model Detection.
 
 ## Files
 - README.md - explains how to recreate the best result
@@ -19,8 +19,14 @@ How to Setup and Run:
 4. Install dependencies,
    `pip install --upgrade pip`
    `pip install torch torchvision pandas numpy safetensors tqdm`
-5. First generate the feature file using, `python detect_perm_invariant_v21.py`. This creates `features_v21_perm_invariant.csv`
-6. Then run the ensemble script, `python ensemble_v49.py`.
+5. The feature file `features_v21_perm_invariant.csv`is already included.
+6. Therefore, run the script, `python ensemble_v49.py`.
 7. This creates the final submission csv file.
-8. The make it as the official submission script.
+8. To use it as the official submission file, `cp submission_v49.csv submission.csv`.
 9. Then Run, `python submission.py`.
+
+Regenrating the feature file :
+
+1. The feature file can be regenrated with, `python detect_perm_invariant_v21.py`.
+2. Make sure the provided files are present, official/target_model/weights.safetensors and http://official/suspect_models/.
+3. Once feature file is generated, run the script using `python ensemble_v49.py` (follow step 6 onwards)
