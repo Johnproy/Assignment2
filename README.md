@@ -29,5 +29,5 @@ How to Setup and Run :
 Regenerating the feature file :
 
 1. The feature file can be regenerated with, `python detect_perm_invariant_v21.py`.
-2. Make sure the provided files are present, official/target_model/weights.safetensors, official/suspect_models/ and feature file.
+2. Make sure the provided files are present, official/target_model/weights.safetensors, official/suspect_models/ and baseline file.
 3. Once feature file is generated, run the script using `python ensemble_v49.py` and please follow from step 6 above.
