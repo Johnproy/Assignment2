@@ -1,5 +1,5 @@
 # Assignment2 
-The repository contains the script for best score in assignment 2.
+The README file contains the code and the steps to achieve the best score in assignment 2 - Stolen Model Detection.
 
 ## Files
 - README.md - explains how to recreate the best result
