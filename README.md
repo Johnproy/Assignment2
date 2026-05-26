@@ -7,6 +7,7 @@ The folder contains the code and the steps to achieve the best score in assignme
 - submission.csv - contains the final submission file generated
 - features_v21_perm_invariant.csv - feature file (set) used by the ensemble script
 - detect_perm_invariant_v21.py - generates the feature file
+- features_v10_conservative_v4.csv - baseline file used by detect_perm_invariant_v21.py.
 
 
 How to Setup and Run :
