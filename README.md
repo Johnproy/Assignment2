@@ -3,7 +3,7 @@ The folder contains the code and the steps to achieve the best score in assignme
 
 ## Files
 - README.md - explains how to recreate the best result
-- ensemble_v49.py - Contains the script
+- ensemble_v49.py - contains the script
 - submission.csv - contains the final submission file generated
 - features_v21_perm_invariant.csv - feature file (set) used by the ensemble script
 - detect_perm_invariant_v21.py - generates the feature file
