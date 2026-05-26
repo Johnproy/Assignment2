@@ -19,7 +19,7 @@ How to Setup and Run:
 4. Install dependencies,
    `pip install --upgrade pip`
    `pip install torch torchvision pandas numpy safetensors tqdm`
-5. First generate the feature file using, python src/detect_perm_invariant_v21.py. This creates features_v21_perm_invariant.csv
+5. First generate the feature file using, `python src/detect_perm_invariant_v21.py`. This creates `features_v21_perm_invariant.csv`
 6. Then run the ensemble script, `python src/ensemble_v49.py`.
 7. This creates the final submission csv file.
 8. The make it as the official submission script.
