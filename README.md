@@ -28,5 +28,5 @@ How to Setup and Run:
 Regenrating the feature file :
 
 1. The feature file can be regenrated with, `python detect_perm_invariant_v21.py`.
-2. Make sure the provided files are present, official/target_model/weights.safetensors and http://official/suspect_models/.
+2. Make sure the provided files are present, official/target_model/weights.safetensors and //official/suspect_models/.
 3. Once feature file is generated, run the script using `python ensemble_v49.py` (follow step 6 onwards)
